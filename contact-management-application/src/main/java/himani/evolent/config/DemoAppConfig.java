@@ -28,7 +28,7 @@ import com.mchange.v2.c3p0.ComboPooledDataSource;
 @EnableWebMvc
 @EnableTransactionManagement
 @ComponentScan("himani.evolent")
-@PropertySource({ "classpath:persistence-oracle.properties" })
+@PropertySource({ "classpath:application.properties" })
 public class DemoAppConfig implements WebMvcConfigurer {
 
 	@Autowired
